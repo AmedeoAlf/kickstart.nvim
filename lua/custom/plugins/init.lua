@@ -2,13 +2,8 @@
 --  I promise not to create any merge conflicts in this directory :)
 --
 -- See the kickstart.nvim README for more information
-<<<<<<< HEAD
+---@module 'lazy'
+---@type LazySpec
 return {
   { 'akinsho/toggleterm.nvim', version = '*', config = true },
 }
-=======
-
----@module 'lazy'
----@type LazySpec
-return {}
->>>>>>> 648471c9eb1f757729e800ff0a6509e01232a8e9
