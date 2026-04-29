@@ -519,6 +519,9 @@ require('lazy').setup({
 
         stylua = {}, -- Used to format Lua code
 
+        tailwindcss = {},
+        cssls = {},
+
         -- Special Lua Config, as recommended by neovim help docs
         lua_ls = {
           on_init = function(client)
