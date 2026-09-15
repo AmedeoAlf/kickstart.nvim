@@ -498,7 +498,9 @@ require('lazy').setup({
         gopls = {},
         pyright = {},
         rust_analyzer = {},
-        ols = {},
+        ols = {
+          root_markers = { 'ols.json' },
+        },
         intelephense = {},
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -886,6 +888,8 @@ require('lazy').setup({
     },
   },
 })
+
+require 'custom.snippets'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
